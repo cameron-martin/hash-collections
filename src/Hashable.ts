@@ -1,4 +1,4 @@
-import { Equatable } from "./equatable";
+import { Equatable } from "./Equatable";
 
 export interface Hashable extends Equatable {
   /**

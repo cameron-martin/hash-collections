@@ -1,5 +1,5 @@
-import { HashTable } from "./hashtable";
-import { Hashable } from "./hashable";
+import { HashTable } from "./HashTable";
+import { Hashable } from "./Hashable";
 
 export class HashSet<T extends Hashable> {
   private hashtable = new HashTable<T, boolean>();

@@ -1,4 +1,4 @@
-export { HashTable } from "./hashtable";
-export { HashSet } from "./hashset";
-export { Equatable } from "./equatable";
-export { Hashable } from "./hashable";
+export { HashTable } from "./HashTable";
+export { HashSet } from "./HashSet";
+export { Equatable } from "./Equatable";
+export { Hashable } from "./Hashable";

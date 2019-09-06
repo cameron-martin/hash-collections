@@ -1,4 +1,4 @@
-import { Hashable } from "./hashable";
+import { Hashable } from "./Hashable";
 
 interface Item<K, V> {
   key: K;
