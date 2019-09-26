@@ -7,8 +7,11 @@
   "author": "Cameron Martin <cameronmartin123@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/benchmark": "^1.0.31",
     "@types/jest": "^24.0.18",
+    "benchmark": "^2.1.4",
     "jest": "^24.9.0",
+    "microtime": "^3.0.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.6.2"
@@ -21,5 +24,6 @@
     "lint": "prettier --check '**/*.{js,ts,md,json}'",
     "build": "tsc --build tsconfig.json tsconfig.module.json",
     "format": "yarn prettier --write '**/*.{js,ts,md,json}'"
-  }
+  },
+  "dependencies": {}
 }
